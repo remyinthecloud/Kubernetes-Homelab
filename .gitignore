@@ -1,0 +1,8 @@
+# Ignore all log files
+*.log
+
+# Ignore all backup files
+*.bak
+
+# Ignore k3s config
+/k3s/.kube/config
