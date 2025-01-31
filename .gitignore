@@ -4,5 +4,9 @@
 # Ignore all backup files
 *.bak
 
-# Ignore k3s config
+# Ignore k3s config and cache directory
 /k3s/.kube/config
+/k3s/.kube/cache
+
+# Ignore installation scripts
+/scripts/get_helm.sh
